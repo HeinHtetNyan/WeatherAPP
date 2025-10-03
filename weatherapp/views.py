@@ -10,7 +10,7 @@ def home(request):
         city = request.POST['city']
     else:
         city = 'Thailand'
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=e372f3bdd3757369e5596a4be872d9d5'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
     PARAMS = {'units':'metric'}
 
     API_KEY = ''
